@@ -1,3 +1,5 @@
+USE THE REST COUNTRIES API URL->https://restcountries.com/v3.1/all AND DISPLAY ALL COUNTRIES NAME ,REGION,SUB-REGION AND POPULATION IN CONSOLE? 
+
 var xhr = new XMLHttpRequest(); 
 
 xhr.open('GET', 'https://restcountries.com/v3.1/all')
@@ -15,7 +17,7 @@ xhr.onload = function()
         console.log(responseObj[i].name)
     }
 
-} // flag of the countries
+} //name of the countries
 
 
 var xhr = new XMLHttpRequest(); 
