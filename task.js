@@ -1,3 +1,7 @@
+USE THE REST COUNTRIES AND DISPLAY ALL THE COUNTRIES FLAG IN CONSOLE?
+   
+
+
 var xhr = new XMLHttpRequest();
 xhr.open('GET',' https://restcountries.com/v3.1/all' );
 xhr.responseType = 'json';
