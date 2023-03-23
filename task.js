@@ -5,7 +5,7 @@ xhr.send();
 xhr.onload = function() {
     var responseobj = xhr.response;
     for(var i=0; i< responseobj.length; i++) {
-       // console.log(responseobj[i].flag);
+        console.log(responseobj[i].flag);
     }
     
 }
