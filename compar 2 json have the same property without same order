@@ -1,0 +1,21 @@
+let obj1 = { name:"person1", age:"5"}
+let obj2 = { age:5, name:"person1"}
+
+function isEqual(kv1,kv2)
+{
+  
+let obj1key = Object.keys(kv1);
+let obj2key = Object.keys(kv2);
+
+if(obj1key.length != obj2key.length)
+{
+    return false
+}  
+
+for(var keys of obj1key)
+{
+    if(kv1[keys] != kv2[keys])
+    {
+
+        return false
+    }
